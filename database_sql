@@ -1,0 +1,41 @@
+display database
+Table
+computers : 	id [primary key]
+		employee_id
+		com_sn
+		com_name
+		com_owner
+		com_status
+		create_at
+
+other_device :	id
+		device_no
+		device_name
+		device_type
+		device_status
+		create_at
+
+printers :	id
+		printer_sn
+		printer_name
+		printer_owner
+		printer_status
+		create_at
+
+repair_notices:	id
+		rn_dn
+		rn_date
+		rn_status
+		rn_des
+		create_at
+
+user_login : 	id_user
+		firstname
+		lastname
+		department
+		email
+		password
+		user_role
+		create_time
+
+
